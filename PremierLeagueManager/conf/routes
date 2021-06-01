@@ -1,0 +1,6 @@
+GET     /pointTable             controllers.HomeController.clubList()
+GET     /sortGoals              controllers.HomeController.clubListSortGoals()
+GET     /sortWins               controllers.HomeController.clubListSortWins()
+GET     /randomMatch            controllers.HomeController.generateRandomMatch()
+GET     /findMatch/:date        controllers.HomeController.findMatch(date: String)
+GET     /matches                controllers.HomeController.matchesList()

@@ -1,0 +1,37 @@
+.space{
+    flex: 1 1 auto;
+
+}
+.mat-elevation-z6{
+    height: 80px;
+    background-color: #38003c;
+    font-family: "Montserrat", sans-serif;
+}
+body {
+  background: url("img/2.jpg");
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+  font-size: 70px;
+  margin: 320px 0 20px 30px;
+  padding: 0;
+  color: white;
+}
+
+#intro {
+  width: 100%;
+  position: relative;
+}
+
+#intro .intro-content h2 span {
+  color: #50d8af;
+
+}
+

@@ -1,0 +1,33 @@
+<body>
+<div class=container>
+
+  <mat-toolbar color="primary" class="mat-elevation-z6">
+    <span>Premier League Manager</span>
+    <div class="space"></div>
+    <a mat-button routerLink="" style="font-family:Montserrat,sans-serif;">Home</a>
+    <a mat-button routerLink="pointsTable" style="font-family:Montserrat,sans-serif;">Points Table</a>
+    <a mat-button routerLink="sortGoals" style="font-family:Montserrat,sans-serif;">Sort By Scored Goals</a>
+    <a mat-button routerLink="sortWins" style="font-family:Montserrat,sans-serif;">Sort By Wins</a>
+    <a mat-button routerLink="randomMatch" style="font-family:Montserrat,sans-serif;">Random Match</a>
+    <a mat-button routerLink="viewAllMatches" style="font-family:Montserrat,sans-serif;">View All Matches</a>
+
+    <div class="md-form active-purple active-purple-2 mb-3">
+      <input class="form-control" type="search" id="search" placeholder="YYYY-MM-DD" aria-label="Search" mdbInput>
+      <a mat-button routerLink="searchMatch" (click)="findMatch('/findMatch/')" ><mat-icon>search</mat-icon></a>
+    </div>
+
+  </mat-toolbar>
+  </div>
+
+  <section id="intro">
+
+  <div class="intro-content">
+    <h2> |Welcome To <span>Premier League</span><br><br><span>|The League</span> Managing Application</h2><br>
+  </div>
+
+
+
+  </section>
+</body>
+
+<router-outlet></router-outlet>

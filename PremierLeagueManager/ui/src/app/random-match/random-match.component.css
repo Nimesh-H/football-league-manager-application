@@ -1,0 +1,32 @@
+
+.full-width-table {
+  width: 100%;
+}
+.full-width-table {
+  width: 100%;
+}
+
+.mat-elevation-z8{
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #e2d3eb;
+}
+.topic{
+  background-color: #38003c;
+  height: 80px;
+  color: white;
+  font-family: "Montserrat", sans-serif;
+}
+
+.topic_lable{
+  color: white;
+  padding-top: 25px;
+  padding-left: 20px;
+  position: absolute;
+  margin-left: 800px;
+}
+body{
+  background-color: #716578;
+  height: 600px;
+}
